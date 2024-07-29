@@ -1,0 +1,170 @@
+
+
+h1
+{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;  
+    
+}
+.outerpara
+{
+
+ display: flex;
+ justify-content: center;
+ font-family: "Inter", sans-serif;  
+
+}
+.para
+{
+    font-size: 16px;
+    width: 700px;
+    text-align: center;
+    font-family: "Inter", sans-serif;  
+    color: rgb(93, 93, 93);
+  
+}
+#para2
+{
+    color: gray;
+}
+
+.outcard
+{  
+    width: 60vw;
+    margin: auto;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+@media(min-width:650px)
+
+{
+    .outcard{
+    grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(min-width:1080px)
+{
+    .outcard{
+        grid-template-columns: repeat(3,1fr);
+        }
+}
+@media(min-width:1366px)
+{
+    .outcard{
+        grid-template-columns: repeat(4,1fr);
+        }
+}
+
+
+.card1
+{
+  
+    display: flex;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+    border: 0.1px solid rgb(228, 228, 228);
+    transition:all, 800ms, ease-out;
+}
+.card1img
+{
+    width: 100%;
+    object-fit: cover;
+    transition: 1s ;
+   
+  
+}
+.cardinfo
+{
+    font-size: 10px;
+    font-family: "Inter", sans-serif;  
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+#para2
+{
+    font-size: 14px;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+    
+    
+    
+}
+.authorinfo
+{
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+.nameinfo
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    font-size: 13px;
+}
+#info1
+{
+    color: rgb(42, 42, 230);
+    font-size: 15px;
+}
+#info2
+{
+    color:rgb(128, 126, 126);
+    font-size: 12px;
+    align-items: flex-end;
+}
+.authorimg
+{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+  
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.a2:hover
+{
+    color: rgb(55, 55, 189);
+}
+.card1:hover .card1img
+{
+    transform: scale(1.1);
+    
+    
+    
+}
+.button
+{
+    width: 90px;
+    font-size: 13px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-self: end;
+    color: gray;
+}
+
